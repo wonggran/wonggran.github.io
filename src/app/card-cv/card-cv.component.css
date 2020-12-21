@@ -1,0 +1,13 @@
+.card-container {
+  height: 160px;
+  width: 100px;
+}
+
+.showPdf {
+  margin-top: 1em;
+  display: block;
+}
+
+.hidePdf {
+  display: none;
+}

@@ -1,0 +1,25 @@
+<div class="card border border-gray-500 bg-gray-100 grid grid-rows-8">
+  <div class="relative card-heading ml-3 mt-3 row-span-3">
+    <div class="text-2xl absolute top-0 left-0">
+      {{projectName}}
+    </div>
+    <div class="text-md absolute top-0 right-0 pl-2 pr-2 border border-r-0 bg-green-300 shadow-md">
+      {{projectStatus}}
+    </div>
+  </div>
+  <div class="card-body ml-3 mr-3 row-span-2">
+    <div class="card-description text-sm">{{projectDescription}}</div>
+  </div>
+  <div class="row-span-3 ml-3 mr-3">
+    <img class="h-12 inline-block px-2 py-2" src="../../assets/angular.svg">
+    <img class="h-12 inline-block px-2 py-2" src="../../assets/tailwind.png">
+    <img class="h-12 inline-block px-2 py-2" src="../../assets/graphql.png">
+    <img class="h-12 inline-block px-2 py-2" src="../../assets/nodejs.png">
+    <img class="h-12 inline-block px-2 py-2" src="../../assets/mongodb.png">
+  </div>
+  <div class="github flex justify-center items-center border border-b-0 border-l-0 border-r-0 border-t-1 row-span-1">
+    <a href="https://github.com/wonggran/cargo-angular">
+      <fa-icon [icon]="faGithub" size="2x"></fa-icon>
+    </a>
+  </div>
+</div>
